@@ -6,6 +6,7 @@ import exampleImage from "@/contents/image/crush-love.gif";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <p className={styles.description}>I build some interesting UI stuff</p>
       <div className={styles.list}>
         <Card
           title="example"
