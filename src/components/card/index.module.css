@@ -1,8 +1,21 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
   height: 400px;
   width: 400px;
+  padding: 1.5rem 0.6rem;
+
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(100px);
   border-radius: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+
+.container:hover {
+  box-shadow: var(--background-end-rgb) 0px 10px 40px;
+  transition: 0.3s all;
 }

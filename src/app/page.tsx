@@ -1,14 +1,36 @@
 import styles from "./page.module.css";
 import Card from "@/components/card";
 import Link from "next/link";
+import exampleImage from "@/contents/image/crush-love.gif";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.list}>
-        <Card />
-        <Card />
-        <Card />
+        <Card
+          title="example"
+          href="/example"
+          imageSrc={exampleImage}
+          description="this is example"
+        />
+        <Card
+          title="example"
+          href="/example"
+          imageSrc={exampleImage}
+          description="this is example"
+        />
+        <Card
+          title="example"
+          href="/example"
+          imageSrc={exampleImage}
+          description="this is example"
+        />
+        <Card
+          title="example"
+          href="/example"
+          imageSrc={exampleImage}
+          description="this is example"
+        />
       </div>
       <footer className={styles.footer}>
         made by
